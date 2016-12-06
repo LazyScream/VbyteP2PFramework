@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'VbyteP2P_Example' do
+  pod 'VbyteP2P', :path => '../'
+
+  target 'VbyteP2P_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
