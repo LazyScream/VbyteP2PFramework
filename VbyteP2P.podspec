@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VbyteP2P'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of VbyteP2P.'
+  s.version          = '0.1.6'
+  s.summary          = 'P2P engine for videos playback.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is a library for ios, it can help your app reduce bandwidth cost rely on its peer-to-peer acceleration. It is maintained by Vbyte.cn. Welcome and Thank you for using it!
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/VbyteP2P'
+  s.homepage         = 'https://github.com/Vbytes/VbyteP2PFramework'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'huster-zhangpeng' => 'huster.zhangpeng@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/VbyteP2P.git', :tag => s.version.to_s }
+  s.author           = { 'Vbytes' => 'repository@exatech.cn' }
+  s.source           = { :git => 'https://github.com/Vbytes/VbyteP2PFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'VbyteP2P/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'VbyteP2P' => ['VbyteP2P/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.source_files = 'VbyteP2P/Classes/**/*'
+  s.ios.vendored_frameworks = 'VbyteP2P/Frameworks/VbyteP2P.framework'
+  s.ios.libraries = "stdc++.6.0.9"
+  # s.ios.compiler_flags = '-std=gnu++98', '-stdlib=libstdc++'
 end

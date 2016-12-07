@@ -21,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6993A7A61DF6C63100E513DA /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6993A7A51DF6C63100E513DA /* libstdc++.6.0.9.tbd */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B8E6818851A41EF597A2A1E5 /* Pods_VbyteP2P_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580ECBEBDF6335A306647E03 /* Pods_VbyteP2P_Example.framework */; };
 /* End PBXBuildFile section */
@@ -37,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0E22A4ECF51DEE8CBD524448 /* Pods_VbyteP2P_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VbyteP2P_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E3A7C8E5DAEA5C83B5E905D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0E3A7C8E5DAEA5C83B5E905D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		52BD5B411319ED423CBE1ED4 /* Pods-VbyteP2P_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VbyteP2P_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-VbyteP2P_Example/Pods-VbyteP2P_Example.release.xcconfig"; sourceTree = "<group>"; };
 		580ECBEBDF6335A306647E03 /* Pods_VbyteP2P_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VbyteP2P_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* VbyteP2P_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VbyteP2P_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,12 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6993A7A51DF6C63100E513DA /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		75C0B0DBCE8FD57DB842F0BB /* Pods-VbyteP2P_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VbyteP2P_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VbyteP2P_Example/Pods-VbyteP2P_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AF8EE5E4E9036610E4B1912F /* Pods-VbyteP2P_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VbyteP2P_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VbyteP2P_Tests/Pods-VbyteP2P_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0D7321FC2246AD00873A6A3 /* Pods-VbyteP2P_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VbyteP2P_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VbyteP2P_Tests/Pods-VbyteP2P_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7D4F0A61F8FE0D2628700CB /* VbyteP2P.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VbyteP2P.podspec; path = ../VbyteP2P.podspec; sourceTree = "<group>"; };
-		FEBE7435910B0DD2F7162ED3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D7D4F0A61F8FE0D2628700CB /* VbyteP2P.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VbyteP2P.podspec; path = ../VbyteP2P.podspec; sourceTree = "<group>"; };
+		FEBE7435910B0DD2F7162ED3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6993A7A61DF6C63100E513DA /* libstdc++.6.0.9.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -128,6 +131,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6993A7A51DF6C63100E513DA /* libstdc++.6.0.9.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -247,7 +251,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "huster-zhangpeng";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9G94AHYL4K;
+					};
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0810;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -513,12 +521,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9G94AHYL4K;
+				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VbyteP2P/VbyteP2P-Prefix.pch";
 				INFOPLIST_FILE = "VbyteP2P/VbyteP2P-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -529,12 +543,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9G94AHYL4K;
+				ENABLE_BITCODE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VbyteP2P/VbyteP2P-Prefix.pch";
 				INFOPLIST_FILE = "VbyteP2P/VbyteP2P-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -558,6 +578,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VbyteP2P_Example.app/VbyteP2P_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -578,6 +599,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VbyteP2P_Example.app/VbyteP2P_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
