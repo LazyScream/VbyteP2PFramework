@@ -1,4 +1,4 @@
-VbyteP2P
+Vbyte P2P IOS SDK
 ===
 
 [![CI Status](http://img.shields.io/travis/huster-zhangpeng/VbyteP2P.svg?style=flat)](https://travis-ci.org/huster-zhangpeng/VbyteP2P)
