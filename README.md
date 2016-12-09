@@ -6,7 +6,7 @@ VbyteP2P
 [![License](https://img.shields.io/cocoapods/l/VbyteP2P.svg?style=flat)](http://cocoapods.org/pods/VbyteP2P)
 [![Platform](https://img.shields.io/cocoapods/p/VbyteP2P.svg?style=flat)](http://cocoapods.org/pods/VbyteP2P)
 
-vbyte云视频解决方案，可帮助用户直接使用经过大规模验证的直播流媒体分发服务,通过vbyte成熟的P2P技术大幅节省带宽，提供更优质的用户体验。开发者可通过SDK中简洁的接口快速同自有应用集成，实现iOS设备上的视频P2P加速功能。
+vbyte云视频解决方案，可帮助用户直接使用经过大规模验证的直播流媒体分发服务，通过vbyte成熟的P2P技术大幅节省带宽，提供更优质的用户体验。开发者可通过SDK中简洁的接口快速同自有应用集成，实现iOS设备上的视频P2P加速功能。
 
 ### 功能
 
@@ -24,7 +24,14 @@ IOS SDK托管于第三方平台[CocoaPods][6]上，依赖部署是非常简单�
 ```ruby
 pod 'VbyteP2P', '~> 1.0.0'
 ```
-- 在代码中引入`#import <VbyteP2P/P2PModule.h>`试试，可以的话即成功了。如果不行，确认编译日志里面哪儿出了问题。如果是Framework未找到，尝试再配置Framework search path试试。
+
+- 在项目根目录下，执行`pod install`
+
+```bash
+cd /path/to/your/application
+pod install
+```
+- 打开自动生成的xcworkspace，在代码中引入`#import <VbyteP2P/P2PModule.h>`即可使用
 
 ### 开始使用
 
@@ -171,8 +178,8 @@ pod 'VbyteP2P', '~> 1.0.0'
 *温馨提示*：如果你需要任何帮助，或有任何疑问，请[联系我们](mailto:contact@exatech.cn)。
 
 [1]: http://devcenter.vbyte.cn
-[2]: /api/ios/
-[3]: /manage/base/
+[2]: http://docs.vbyte.cn/api/ios/
+[3]: http://docs.vbyte.cn/manage/base/
 [4]: https://github.com/Vbytes/VbyteP2PFramework
 [5]: https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPFrameworks/Tasks/IncludingFrameworks.html
 [6]: http://cocoapods.org
