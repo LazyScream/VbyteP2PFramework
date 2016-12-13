@@ -19,6 +19,7 @@ vbyte云视频解决方案，可帮助用户直接使用经过大规模验证的
 
 IOS SDK托管于第三方平台[CocoaPods][6]上，依赖部署是非常简单的。凭借这设计良好的接口，在使用上也非常方便。
 
+- 由于依赖库超过100MB，需要`git-lfs`来管理，所以首先安装[git-lfs][8]
 - 将以下依赖加进项目的Podfile中
 
 ```ruby
@@ -36,7 +37,7 @@ pod install
 ### 开始使用
 
 - 首先参考[资源管理][3]在[开发者中心][1]上注册帐号，创建应用，创建应用时要写对包名。然后得到相应的app id,app key与app secret key
-- 第二步，P2P模块的应用生命周期管理：在应用启动之初，启动VbyteP2PModule；在应用结束时销毁VbyteP2PModule
+- 第二步，P2P模块的应用生命周期管理：在应用启动之初，启动P2PModule；在应用结束时销毁P2PModule
 ```Objective-c
 // Example: 程序的入口AppDelegate.m
 
@@ -184,3 +185,4 @@ pod install
 [5]: https://developer.apple.com/library/content/documentation/MacOSX/Conceptual/BPFrameworks/Tasks/IncludingFrameworks.html
 [6]: http://cocoapods.org
 [7]: https://github.com/Vbytes/ios-sample
+[8]: https://git-lfs.github.com/
