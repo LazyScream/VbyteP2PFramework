@@ -19,7 +19,19 @@ vbyte云视频解决方案，可帮助用户直接使用经过大规模验证的
 
 IOS SDK托管于第三方平台[CocoaPods][6]上，依赖部署是非常简单的。凭借这设计良好的接口，在使用上也非常方便。
 
-- 由于依赖库超过100MB，需要`git-lfs`来管理，所以首先安装[git-lfs][8]
+- 由于依赖库超过100MB，需要[`git-lfs`][8]来管理，所以首先安装[`git-lfs`][8]，以在git clone时将依赖库能下载下来
+
+```bash
+# 参考：https://git-lfs.github.com/
+# 如果你使用的是Homebrew，可以如下安装 
+$ brew install git-lfs
+# 系统默认使用MacPorts安装 
+$ port install git-lfs
+
+# 安装完别忘记先在系统内初始化，只需要执行一次，以后每个项目都可以使用
+$ git lfs install
+```
+
 - 将以下依赖加进项目的Podfile中
 
 ```ruby
@@ -32,6 +44,7 @@ pod 'VbyteP2P', '~> 1.0.0'
 cd /path/to/your/application
 pod install
 ```
+
 - 打开自动生成的xcworkspace，在代码中引入`#import <VbyteP2P/P2PModule.h>`即可使用
 
 ### 开始使用
