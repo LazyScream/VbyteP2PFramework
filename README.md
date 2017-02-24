@@ -35,7 +35,7 @@ $ git lfs install
 - 将以下依赖加进项目的Podfile中
 
 ```ruby
-pod 'VbyteP2P', '~> 1.0.1'
+pod 'VbyteP2P', '~> 1.0.3'
 ```
 
 - 在项目根目录下，执行`pod install`
